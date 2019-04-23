@@ -1,4 +1,4 @@
-require_relative ./
+require_relative ../views/
 
 class ApplicationController < Sinatra::Base
   
