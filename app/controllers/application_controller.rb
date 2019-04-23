@@ -1,3 +1,5 @@
+require_relative ./
+
 class ApplicationController < Sinatra::Base
   
   configure do
