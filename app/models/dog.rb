@@ -1,4 +1,4 @@
-class Dog
+class Dog < Active::Record
   attr_accessor :name, :breed, :age
   
   @@all = []
