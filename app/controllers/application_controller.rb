@@ -1,6 +1,6 @@
 class ApplicationController < Sinatra::Base
   
-  binding.pry
+  @dog = Dog.all
 
   configure do
   	set :views, "app/views"
