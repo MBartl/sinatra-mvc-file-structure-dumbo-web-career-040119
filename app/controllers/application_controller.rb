@@ -1,4 +1,4 @@
-require_relative ../views/
+require_relative '../models/dog.rb'
 
 class ApplicationController < Sinatra::Base
   
