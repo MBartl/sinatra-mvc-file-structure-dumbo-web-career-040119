@@ -1,7 +1,7 @@
 class ApplicationController < Sinatra::Base
   
-  @dog = Dog.all
-  
+  binding.pry
+
   configure do
   	set :views, "app/views"
   	set :public_dir, "public"
